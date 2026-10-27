@@ -1,0 +1,152 @@
+================================================================================
+        SENTIMENT ANALYSIS DASHBOARD - LAUNCH INSTRUCTIONS
+================================================================================
+
+STATUS: DASHBOARD RUNNING ✓
+
+================================================================================
+DASHBOARD ACCESS
+================================================================================
+
+LOCAL URL:    http://localhost:8501
+NETWORK URL:  http://192.168.1.13:8501
+
+Open either URL in your web browser to access the dashboard.
+
+================================================================================
+COMMAND TO RUN
+================================================================================
+
+If dashboard stops, run:
+
+  python -m streamlit run app/streamlit_app.py
+
+Or from PowerShell:
+
+  cd "c:\Users\saafi\OneDrive\Desktop\Sentiment Analysis\social-media-sentiment-analysis-dashboard"
+  python -m streamlit run app/streamlit_app.py
+
+================================================================================
+DASHBOARD SECTIONS
+================================================================================
+
+1. SINGLE PREDICTION (📝)
+   - Enter text to get instant sentiment classification
+   - See confidence scores and probability breakdown
+   - Example: "I love this amazing product!" → POSITIVE
+
+2. BATCH ANALYSIS (📊)
+   - Upload CSV file with text column
+   - Analyze all records at once
+   - Download results as CSV
+
+3. DATASET ANALYTICS (📈)
+   - View dataset statistics
+   - Sentiment distribution charts
+   - Platform and geographic analysis
+
+4. MODEL PERFORMANCE (🎯)
+   - Confusion matrix visualization
+   - Performance metrics (Accuracy, Precision, Recall, F1)
+   - Model configuration details
+
+================================================================================
+MODEL PERFORMANCE SUMMARY
+================================================================================
+
+Algorithm:  Logistic Regression
+Accuracy:   78.91%
+Precision:  83.51%
+Recall:     78.91%
+F1-Score:   74.88%
+
+Training Data:  585 samples (80%)
+Testing Data:   147 samples (20%)
+
+Sentiment Distribution:
+  Positive:  455 samples (62.16%)
+  Negative:  208 samples (28.42%)
+  Neutral:    69 samples (9.43%)
+
+================================================================================
+KEYBOARD SHORTCUTS
+================================================================================
+
+In Streamlit:
+- R: Rerun the app
+- C: Clear cache
+- Ctrl+Shift+D: Toggle debug mode
+
+================================================================================
+TROUBLESHOOTING
+================================================================================
+
+Q: Dashboard won't open
+A: Check if port 8501 is in use. Use: python -m streamlit run app/streamlit_app.py --server.port 8502
+
+Q: Model predictions not loading
+A: Ensure model files exist in models/ directory:
+   - sentiment_model.pkl
+   - vectorizer.pkl
+
+Q: Batch upload not working
+A: CSV must have a 'text' column with the text data to analyze
+
+Q: Dashboard is slow
+A: Clear cache by pressing C in the dashboard, or restart the app
+
+================================================================================
+PROJECT FILES LOCATION
+================================================================================
+
+C:\Users\saafi\OneDrive\Desktop\Sentiment Analysis\social-media-sentiment-analysis-dashboard\
+
+Key Files:
+  - app/streamlit_app.py       (Dashboard application)
+  - src/data_preprocessing.py   (Data cleaning)
+  - src/train_model.py          (Model training)
+  - data/cleaned_data.csv       (Processed dataset)
+  - models/sentiment_model.pkl  (Trained model)
+  - requirements.txt            (Dependencies)
+
+================================================================================
+DOCUMENTATION
+================================================================================
+
+Read these files for more information:
+
+1. README.md              - Full project documentation
+2. PROJECT_SUMMARY.md     - Technical details and metrics
+3. QUICK_START.md         - 5-minute setup guide
+4. LAUNCH_INSTRUCTIONS.txt (this file)
+
+================================================================================
+STOPPING THE DASHBOARD
+================================================================================
+
+To stop the dashboard:
+
+1. Press Ctrl+C in the PowerShell/Terminal window
+2. Or close the terminal window
+
+To restart:
+
+  python -m streamlit run app/streamlit_app.py
+
+================================================================================
+SUPPORT
+================================================================================
+
+For detailed information, see:
+- README.md for complete documentation
+- PROJECT_SUMMARY.md for technical specifications
+- QUICK_START.md for quick reference
+
+================================================================================
+PROJECT COMPLETE ✓
+
+Built with Python, Machine Learning, and NLP
+Status: Production Ready
+Last Updated: October 27, 2026
+
+================================================================================
