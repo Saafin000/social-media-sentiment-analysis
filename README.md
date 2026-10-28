@@ -185,9 +185,9 @@ Social-Media-Sentiment-Analysis-Dashboard/
 # ⚙ Installation & Setup
 
 ```bash
-git clone https://github.com/maheshbhakre/social-media-sentiment-analysis-dashboard.git
+git clone https://github.com/Saafin000/social-media-sentiment-analysis.git
 
-cd social-media-sentiment-analysis-dashboard
+cd social-media-sentiment-analysis
 
 python -m venv venv
 
