@@ -300,27 +300,7 @@ Dashboard Visualization
 
 # 👨‍💻 Author
 
-## Mahesh Bhakre
-
----
-
-# 🌐 Connect With Me
-
-<a href="https://github.com/maheshbhakre">
-<img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://www.linkedin.com/in/maheshbhakreds1242">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin">
-</a>
-
-<a href="https://www.instagram.com/mahesh_bhakre__2k06">
-<img src="https://img.shields.io/badge/Instagram-Follow-purple?style=for-the-badge&logo=instagram">
-</a>
-
-<a href="https://saimfsd.github.io/mahesh-portfolio/">
-<img src="https://img.shields.io/badge/Portfolio-Visit%20Website-orange?style=for-the-badge&logo=google-chrome">
-</a>
+## Saafin
 
 ---
 
